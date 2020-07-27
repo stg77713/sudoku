@@ -27,10 +27,10 @@ class Board
   end
 
   def []=(pos, value)
-    x, y = pos
+    x, y = pos 
     tile = grid[x][y]
-    tile.value = value
-  end
+    tile.value = value 
+  end 
 
   def columns
     rows.transpose
